@@ -1,0 +1,202 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    height: 2000px;
+}
+
+.navbar-container {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.navbar li {
+    margin: 0 20px;
+}
+
+ul.navbar li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.navbar li a:hover {
+    background-color: #6D3F5B;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.Whatsapp {
+    background: hsl(202, 90%, 64%);
+    color: white;
+}
+
+.facebook {
+    background: #5478c5fb;
+    color: white;
+}
+
+.instagram {
+    background: #007bb5;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.content {
+    margin-right: 75px;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.myself {
+    position: relative;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-image: url('img3.jpg'); /* Add your image path here */
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; /* Adjust the height as needed */
+}
+
+.myself-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background: rgba(253, 238, 216, 0.97);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aboutme-articles {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.aboutme-articles h2 {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.small-img {
+    width: 400px;
+    height: 250px; /* You can omit this to maintain aspect ratio */
+}
+
+.articles p {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sabahan {
+    position: relative;
+    align-items: center;
+    background-image: url('Original\ SABAHAN.png'); /* Add your image path here */
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; /* Adjust the height as needed */
+}
+.center-text {
+    text-align: center;
+}
+.school{
+    padding: 50px 20px;
+}
+.article-school h2 {
+    padding: 50px 20px;
+    text-align: center;
+}
+.article-school {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article-school .article {
+    flex: 1;
+    min-width: 250px;
+}
+
+.article-school .article img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}

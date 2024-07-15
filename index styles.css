@@ -1,0 +1,132 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    height: 2000px;
+    overflow: hidden;
+}
+.navbar-container {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.navbar li {
+    margin: 0 20px;
+}
+
+ul.navbar li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.navbar li a:hover {
+    background-color: #6D3F5B;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.Whatsapp {
+    background: hsl(202, 90%, 64%);
+    color: white;
+}
+.facebook {
+    background: #5478c5fb;
+    color: white;
+}
+
+.instagram {
+    background: #007bb5;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.content {
+    margin-right: 75px;
+    font-size: 30px;
+}
+
+.aside {
+    grid-area: aside;
+    padding: 20px;
+    background-color: #ffdae0;
+}
+
+.main-content {
+    grid-area: main;
+    padding: 20px;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.welcome-box, .article-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0dfe9;
+    border-radius: 5px;
+}
+
+.article-box img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
