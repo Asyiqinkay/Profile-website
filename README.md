@@ -1,2 +1,2 @@
 # Profile-website
-This project for assignment IML470
+This project for individual assignment for subject IML470.
